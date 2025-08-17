@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- 
+every thing in CSS should be consider as a "box model"
+BOX MODEL:-
+
+    ->content
+    ->Padding
+        ->padding-top
+        ->padding-bottom
+        ->padding-left
+        ->padding-right
+        ->padding:20px ====> this is used when we want same space in right,left,top,bottom(Shorthand property padding)
+        ->padding:20px(top spacing) 50px(right spacing) 30px(bottom spaceing) 10px(left spacing);(Shorthand property padding)
+    ->boarder
+        ->boarder-width
+        ->boarder-style
+        ->boarder-color
+        ->boarder:width style color;(Shorthand property of boarder)
+    ->Margin
+        ->margin-top
+        ->margin-bottom
+        ->margin-left
+        ->margin-right
+        ->padding:20px ====> this is used when we want same space in right,left,top,bottom(Shorthand property Margin)
+        ->padding:20px(top spacing) 50px(right spacing) 30px(bottom spaceing) 10px(left spacing);(Shorthand property of Margin)
+
+div :-It is like container it occupies entire 100% width 
+% is always depends on the parent spacing
+
+-->
+<body>
+    <header>
+    <div class="conta">
+        <header>
+        <h3>My Food</h3><strong></strong></span>
+        <h3>Mail</h3><span><strong></strong></span>
+    </div>  
+    </header>
+    <div class="container">
+        <div class="child-1">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child-2">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" alt="">
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child-3">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+            <h3>Cherries, interrupted</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child-4">
+            <img src="https://www.w3schools.com/w3images/wine.jpg" alt="">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="child-1">
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="">
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child-2">
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem lorem lorem praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child-3">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="child-4">
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="">
+            <h3>Le French</h3>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <center>
+        <h3>About Me, The Food Man</h3>
+    </center>
+    <div class="about">
+        <img src="https://www.w3schools.com/w3images/chef.jpg" alt="">
+        <h3 style="padding-left:320px  ;">I am Who I Am!</h3>
+        <h4 style="padding-left:270px  ;">With Passion For Real, Good Food</h4>
+    </div>
+    <center>
+        <p style="padding-left: 50px; margin-bottom: 100px;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </center>
+    <hr>
+    <div class="footer">
+        <div class="f1">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Powerd by <a href="https://www.w3schools.com/w3css/default.asp" style="color: black;">W3.css</a></p>
+        </div>
+        <div class="f2">
+            <h3>BLOG POSTS</h3>
+            <table>
+                <tr>
+                    <td>
+                        <img src=" https://www.w3schools.com/w3images/workshop.jpg" alt="" style="width: 60px;">
+                    </td>
+                    <td>
+                        <p style="padding-left: 10px;">Lorem <br>Sed mattis nunc</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src=" https://www.w3schools.com/w3images/gondol.jpg" alt="" style="width: 60px;">
+                    </td>
+                    <td>
+                        <p style="padding-left: 10px;">Lorem <br>Sed mattis nunc</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="f3">
+            <h3>POPULAR TAGS</h3>
+            <span style="background-color: black;color: white;padding:2px 10px; margin:5px 4px;">Travel</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">New York</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Dinner</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Salmon</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">France</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Drinks</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px; margin-top: 20px;">Ideas</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">flavors</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Cuisine</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Chicken</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">dressing</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Friend</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Fish</span>
+            <span style="background-color: darkgray;columns: white;padding:2px 10px; margin:5px 4px;">Duck</span>
+        </div>
+    </div>
+    </body>
+</html>
