@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    /* overflow: scroll;
+    scrollbar-width:none;*/
+} 
+.mainContainer{
+    border:4px solid ;
+    border-radius: 18px;
+    height: 500px;
+    width:400px;
+    margin-left: 450px;
+    overflow: scroll;
+    scrollbar-width:none;
+
+}
+.header{
+    background-color: green;
+    padding-top:6px;
+    padding-left: 10px;
+    font-size: 30px;
+    position:fixed;
+    width: 390px;
+}
+.dp{
+    display: inline-block;
+    width: 40px;
+}
+.dp img{
+    display: inline-block;
+    border-radius: 50%;
+    width: 100%;
+}
+.name{
+    display: inline-block;
+    vertical-align: 12px;
+    padding-left:4px ;
+}
+.video{
+    display: inline;
+    padding-left: 70px;
+    vertical-align: 12px;
+}
+.call{
+    display: inline;
+    padding-left: 11px;
+    vertical-align: 12px;
+}
+.dots{
+    display: inline;
+    padding-left: 6px;
+    vertical-align: 12px;
+}
+.mes{
+    display: block;
+    background-image: url('./whats.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 390px;
+    border-radius: 10px;
+    margin-top: 65px;
+    position: relative;
+    overflow: scroll;
+    scrollbar-width:none; 
+}
+.me{
+    position: absolute;
+    display: block;
+    /* overflow: scroll;
+    scrollbar-width:none; */
+}
+.date{
+    display: block;
+}
+.hi,.hello,.this,.batch,.r52,.how,.cl,.in,.ok,.th,.good,.go,.do,.wh,.ca,.ya,.th,.ye{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px; 
+    background-color:lightgoldenrodyellow;
+    margin-left: 300px;
+    margin: 8px; 
+    width: fit-content;
+    max-width: 70%
+}
+.left{
+    margin-left: 180px;
+    padding: 2px;
+    height: 2px;
+    display: block;
+
+}
+.date{
+    position: sticky;
+    top: 30px;
+    margin-left: 160px;
+    background-color: lightgoldenrodyellow;
+    width: 60px;
+    border-radius: 4px;
+    display: block;
+}
+.footer{
+    position: fixed;
+    bottom: 120px;
+    height: 40px;
+    width: 400px;
+    padding-top: 8px;
+    border-radius: 0px 0px 18px 18px;
+    background-color: rgb(163, 162, 162);   
+}
