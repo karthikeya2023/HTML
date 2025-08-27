@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.child{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.child-1{
+    border-radius: 20px 0px 0px 20px;
+    align-self: center;
+
+}
+.child-9{
+    border-radius: 0px 20px 20px 0px;
+    align-self: center;
+}
