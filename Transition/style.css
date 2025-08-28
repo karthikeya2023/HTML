@@ -1,0 +1,148 @@
+.contanier{
+    display: flex;
+    
+    flex-wrap: wrap;         
+    justify-content: center;
+    padding: 20px;
+    flex-shrink: 0;     
+    gap:10px;
+
+}
+img{
+    width:100%;
+    height:100%;
+}
+.child{
+    border: 2px;
+    height:300px;
+    width: 270px;    
+}
+p{
+    opacity: 0;
+}
+.child-1 h3{
+    opacity: 0;
+}
+
+.child-1:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-1:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-1:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-1 h3{
+    opacity: 0;
+}
+
+.child-2:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-2:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-2:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-2 h3{
+    opacity: 0;
+}
+
+.child-3:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-3:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-3:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-3 h3{
+    opacity: 0;
+}
+
+.child-4:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-4:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-4:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-4 h3{
+    opacity: 0;
+}
+.child-5:hover>img{
+    display: none;
+    transition-delay: 0.4s;
+}
+.child-5:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-5:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-5 h3{
+    opacity: 0;
+}
+.child-6:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-6:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-6:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-6 h3{
+    opacity: 0;
+}.child-7:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-7:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-7:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-7 h3{
+    opacity: 0;
+}
+.child-8:hover>img{
+    display: none;
+    transition-duration: 0.4s;
+}
+.child-8:hover>p{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-8:hover>h3{
+    opacity: 1;
+    font-size: 20px;
+}
+.child-8 h3{
+    opacity: 0;
+}
